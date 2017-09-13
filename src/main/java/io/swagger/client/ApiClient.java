@@ -45,7 +45,7 @@ public class ApiClient {
       if ("api_key".equals(authName)) {
         auth = new ApiKeyAuth("header", "api_key");
       } else if ("group_auth".equals(authName)) {
-        auth = new OAuth(OAuthFlow.implicit, "http://petstore.swagger.io/oauth/dialog", "", "write:groups, read:groups, edit:groups, read:inGroups");
+        auth = new OAuth(OAuthFlow.implicit, "https://minhapeladaapi.herokuapp.com/v1/auth/google", "", "write:groups, read:groups, edit:groups, read:inGroups");
       } else {
         throw new RuntimeException("auth name \"" + authName + "\" not found in available auth names");
       }

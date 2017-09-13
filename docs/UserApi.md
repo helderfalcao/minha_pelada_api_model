@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 <a name="getUser"></a>
 # **getUser**
-> User getUser()
+> List&lt;User&gt; getUser()
 
 Retorna usuários de acordo com os dados informados na query
 
@@ -37,7 +37,7 @@ api_key.setApiKey("YOUR API KEY");
 
 UserApi apiInstance = new UserApi();
 try {
-    User result = apiInstance.getUser();
+    List<User> result = apiInstance.getUser();
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling UserApi#getUser");
@@ -50,7 +50,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**User**](User.md)
+[**List&lt;User&gt;**](User.md)
 
 ### Authorization
 

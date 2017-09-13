@@ -19,10 +19,10 @@ public interface UserApi {
   /**
    * Retorna usuários de acordo com os dados informados na query
    * Retorna usuários registrados no sistema de acordo com a pesquisa
-   * @return Call&lt;User&gt;
+   * @return Call&lt;List&lt;User&gt;&gt;
    */
   @GET("user")
-  Call<User> getUser();
+  Call<List<User>> getUser();
     
 
   /**
