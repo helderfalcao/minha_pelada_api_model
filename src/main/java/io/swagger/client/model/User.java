@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * User
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-09-13T00:09:25.656-03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-09-15T21:39:50.306-03:00")
 public class User {
   @SerializedName("_id")
   private String id = null;
@@ -42,6 +42,9 @@ public class User {
 
   @SerializedName("nome")
   private String nome = null;
+
+  @SerializedName("foto")
+  private String foto = null;
 
   @SerializedName("email")
   private String email = null;
@@ -145,6 +148,24 @@ public class User {
     this.nome = nome;
   }
 
+  public User foto(String foto) {
+    this.foto = foto;
+    return this;
+  }
+
+   /**
+   * Get foto
+   * @return foto
+  **/
+  @ApiModelProperty(value = "")
+  public String getFoto() {
+    return foto;
+  }
+
+  public void setFoto(String foto) {
+    this.foto = foto;
+  }
+
   public User email(String email) {
     this.email = email;
     return this;
@@ -232,6 +253,7 @@ public class User {
         Objects.equals(this.tokenGoogle, user.tokenGoogle) &&
         Objects.equals(this.tokenFacebook, user.tokenFacebook) &&
         Objects.equals(this.nome, user.nome) &&
+        Objects.equals(this.foto, user.foto) &&
         Objects.equals(this.email, user.email) &&
         Objects.equals(this.senha, user.senha) &&
         Objects.equals(this.telefone, user.telefone) &&
@@ -240,7 +262,7 @@ public class User {
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, userName, tokenGoogle, tokenFacebook, nome, email, senha, telefone, status);
+    return Objects.hash(id, userName, tokenGoogle, tokenFacebook, nome, foto, email, senha, telefone, status);
   }
 
 
@@ -254,6 +276,7 @@ public class User {
     sb.append("    tokenGoogle: ").append(toIndentedString(tokenGoogle)).append("\n");
     sb.append("    tokenFacebook: ").append(toIndentedString(tokenFacebook)).append("\n");
     sb.append("    nome: ").append(toIndentedString(nome)).append("\n");
+    sb.append("    foto: ").append(toIndentedString(foto)).append("\n");
     sb.append("    email: ").append(toIndentedString(email)).append("\n");
     sb.append("    senha: ").append(toIndentedString(senha)).append("\n");
     sb.append("    telefone: ").append(toIndentedString(telefone)).append("\n");

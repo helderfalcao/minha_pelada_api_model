@@ -9,6 +9,7 @@ Name | Type | Description | Notes
 **tokenGoogle** | **String** |  |  [optional]
 **tokenFacebook** | **String** |  |  [optional]
 **nome** | **String** |  |  [optional]
+**foto** | **String** |  |  [optional]
 **email** | **String** |  |  [optional]
 **senha** | **String** |  |  [optional]
 **telefone** | **String** |  |  [optional]
