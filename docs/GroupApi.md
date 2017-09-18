@@ -1,6 +1,6 @@
 # GroupApi
 
-All URIs are relative to *https://minhapeladaapi.herokuapp.com/v1*
+All URIs are relative to *http://localhost:8888/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -14,7 +14,7 @@ Method | HTTP request | Description
 
 <a name="addGroup"></a>
 # **addGroup**
-> Void addGroup(body)
+> Void addGroup(group)
 
 Add a new group
 
@@ -34,9 +34,9 @@ OAuth group_auth = (OAuth) defaultClient.getAuthentication("group_auth");
 group_auth.setAccessToken("YOUR ACCESS TOKEN");
 
 GroupApi apiInstance = new GroupApi();
-Group body = new Group(); // Group | Group to be registered to the platform
+Group group = new Group(); // Group | Group to be registered to the platform
 try {
-    Void result = apiInstance.addGroup(body);
+    Void result = apiInstance.addGroup(group);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling GroupApi#addGroup");
@@ -48,7 +48,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Group**](Group.md)| Group to be registered to the platform |
+ **group** | [**Group**](Group.md)| Group to be registered to the platform |
 
 ### Return type
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 
 <a name="findGroup"></a>
 # **findGroup**
-> List&lt;Group&gt; findGroup(status, name, vacancy)
+> List&lt;Group&gt; findGroup()
 
 Find groups by public informations
 
@@ -138,11 +138,8 @@ OAuth group_auth = (OAuth) defaultClient.getAuthentication("group_auth");
 group_auth.setAccessToken("YOUR ACCESS TOKEN");
 
 GroupApi apiInstance = new GroupApi();
-String status = "status_example"; // String | Status of the group
-String name = "name_example"; // String | Name of the group
-String vacancy = "vacancy_example"; // String | Quantity of the vacancy at the group
 try {
-    List<Group> result = apiInstance.findGroup(status, name, vacancy);
+    List<Group> result = apiInstance.findGroup();
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling GroupApi#findGroup");
@@ -151,12 +148,7 @@ try {
 ```
 
 ### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **status** | **String**| Status of the group |
- **name** | **String**| Name of the group |
- **vacancy** | **String**| Quantity of the vacancy at the group |
+This endpoint does not need any parameter.
 
 ### Return type
 
@@ -279,7 +271,7 @@ Name | Type | Description  | Notes
 
 <a name="updateGroup"></a>
 # **updateGroup**
-> Void updateGroup(body)
+> Void updateGroup(group)
 
 Update an existing group
 
@@ -299,9 +291,9 @@ OAuth group_auth = (OAuth) defaultClient.getAuthentication("group_auth");
 group_auth.setAccessToken("YOUR ACCESS TOKEN");
 
 GroupApi apiInstance = new GroupApi();
-Group body = new Group(); // Group | Group object to be updated to the platform
+Group group = new Group(); // Group | Group object to be updated to the platform
 try {
-    Void result = apiInstance.updateGroup(body);
+    Void result = apiInstance.updateGroup(group);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling GroupApi#updateGroup");
@@ -313,7 +305,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**Group**](Group.md)| Group object to be updated to the platform |
+ **group** | [**Group**](Group.md)| Group object to be updated to the platform |
 
 ### Return type
 

@@ -19,7 +19,7 @@ public interface GroupApi {
   /**
    * Add a new group
    * 
-   * @param body Group to be registered to the platform (required)
+   * @param group Group to be registered to the platform (required)
    * @return Call&lt;Void&gt;
    */
   @Headers({
@@ -27,7 +27,7 @@ public interface GroupApi {
   })
   @POST("group")
   Call<Void> addGroup(
-    @retrofit2.http.Body Group body
+    @retrofit2.http.Body Group group
   );
 
   /**
@@ -44,15 +44,11 @@ public interface GroupApi {
   /**
    * Find groups by public informations
    * Multiple atributes of the group can be used on this operation. Can be used\\ \\ status, name, available space.
-   * @param status Status of the group (required)
-   * @param name Name of the group (required)
-   * @param vacancy Quantity of the vacancy at the group (required)
    * @return Call&lt;List&lt;Group&gt;&gt;
    */
   @GET("group")
-  Call<List<Group>> findGroup(
-    @retrofit2.http.Query("status") String status, @retrofit2.http.Query("name") String name, @retrofit2.http.Query("vacancy") String vacancy
-  );
+  Call<List<Group>> findGroup();
+    
 
   /**
    * Find Groups of the current user
@@ -79,7 +75,7 @@ public interface GroupApi {
   /**
    * Update an existing group
    * 
-   * @param body Group object to be updated to the platform (required)
+   * @param group Group object to be updated to the platform (required)
    * @return Call&lt;Void&gt;
    */
   @Headers({
@@ -87,7 +83,7 @@ public interface GroupApi {
   })
   @PUT("group")
   Call<Void> updateGroup(
-    @retrofit2.http.Body Group body
+    @retrofit2.http.Body Group group
   );
 
 }
