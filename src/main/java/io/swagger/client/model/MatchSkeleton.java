@@ -29,7 +29,7 @@ import org.threeten.bp.LocalDate;
 /**
  * MatchSkeleton
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-09-18T00:14:17.021-03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-09-18T00:46:56.003-03:00")
 public class MatchSkeleton {
   @SerializedName("_id")
   private String id = null;
