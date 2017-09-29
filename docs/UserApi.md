@@ -6,8 +6,8 @@ Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**getUser**](UserApi.md#getUser) | **GET** user | Retorna usuários de acordo com os dados informados na query
 [**getUserByGroup**](UserApi.md#getUserByGroup) | **GET** user/{groupId} | Retorna usuários de um determinado grupo
-[**getUserByIds**](UserApi.md#getUserByIds) | **POST** user | Retorna os usuário de acordo com a lista de ids informada na requisição
-[**getUserByIds_0**](UserApi.md#getUserByIds_0) | **POST** userList | Salva usuário de acordo com os dados informados na autenticação
+[**getUserByIds**](UserApi.md#getUserByIds) | **POST** userList | Salva usuário de acordo com os dados informados na autenticação
+[**postUser**](UserApi.md#postUser) | **POST** user | Retorna os usuário de acordo com a lista de ids informada na requisição
 [**putUser**](UserApi.md#putUser) | **PUT** user | Atualize um usuário registrado no sistema(Somente permitido para o próprio usuário)
 
 
@@ -119,58 +119,7 @@ Name | Type | Description  | Notes
 
 <a name="getUserByIds"></a>
 # **getUserByIds**
-> List&lt;User&gt; getUserByIds()
-
-Retorna os usuário de acordo com a lista de ids informada na requisição
-
-Retorna usuários registrados no sistema de acordo com a pesquisa
-
-### Example
-```java
-// Import classes:
-//import io.swagger.client.ApiClient;
-//import io.swagger.client.ApiException;
-//import io.swagger.client.Configuration;
-//import io.swagger.client.auth.*;
-//import io.swagger.client.api.UserApi;
-
-ApiClient defaultClient = Configuration.getDefaultApiClient();
-
-// Configure API key authorization: api_key
-ApiKeyAuth api_key = (ApiKeyAuth) defaultClient.getAuthentication("api_key");
-api_key.setApiKey("YOUR API KEY");
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//api_key.setApiKeyPrefix("Token");
-
-UserApi apiInstance = new UserApi();
-try {
-    List<User> result = apiInstance.getUserByIds();
-    System.out.println(result);
-} catch (ApiException e) {
-    System.err.println("Exception when calling UserApi#getUserByIds");
-    e.printStackTrace();
-}
-```
-
-### Parameters
-This endpoint does not need any parameter.
-
-### Return type
-
-[**List&lt;User&gt;**](User.md)
-
-### Authorization
-
-[api_key](../README.md#api_key)
-
-### HTTP request headers
-
- - **Content-Type**: Not defined
- - **Accept**: application/json
-
-<a name="getUserByIds_0"></a>
-# **getUserByIds_0**
-> User getUserByIds_0(userIds)
+> User getUserByIds(userIds)
 
 Salva usuário de acordo com os dados informados na autenticação
 
@@ -196,10 +145,10 @@ api_key.setApiKey("YOUR API KEY");
 UserApi apiInstance = new UserApi();
 List<String> userIds = Arrays.asList(new List<String>()); // List<String> | Ids dos usuários a serem consultados
 try {
-    User result = apiInstance.getUserByIds_0(userIds);
+    User result = apiInstance.getUserByIds(userIds);
     System.out.println(result);
 } catch (ApiException e) {
-    System.err.println("Exception when calling UserApi#getUserByIds_0");
+    System.err.println("Exception when calling UserApi#getUserByIds");
     e.printStackTrace();
 }
 ```
@@ -213,6 +162,57 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**User**](User.md)
+
+### Authorization
+
+[api_key](../README.md#api_key)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+<a name="postUser"></a>
+# **postUser**
+> List&lt;User&gt; postUser()
+
+Retorna os usuário de acordo com a lista de ids informada na requisição
+
+Retorna usuários registrados no sistema de acordo com a pesquisa
+
+### Example
+```java
+// Import classes:
+//import io.swagger.client.ApiClient;
+//import io.swagger.client.ApiException;
+//import io.swagger.client.Configuration;
+//import io.swagger.client.auth.*;
+//import io.swagger.client.api.UserApi;
+
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure API key authorization: api_key
+ApiKeyAuth api_key = (ApiKeyAuth) defaultClient.getAuthentication("api_key");
+api_key.setApiKey("YOUR API KEY");
+// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+//api_key.setApiKeyPrefix("Token");
+
+UserApi apiInstance = new UserApi();
+try {
+    List<User> result = apiInstance.postUser();
+    System.out.println(result);
+} catch (ApiException e) {
+    System.err.println("Exception when calling UserApi#postUser");
+    e.printStackTrace();
+}
+```
+
+### Parameters
+This endpoint does not need any parameter.
+
+### Return type
+
+[**List&lt;User&gt;**](User.md)
 
 ### Authorization
 
