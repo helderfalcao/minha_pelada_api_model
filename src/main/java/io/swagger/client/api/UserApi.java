@@ -37,13 +37,24 @@ public interface UserApi {
   );
 
   /**
-   * Salva usuário de acordo com os dados informados na autenticação
-   * Permite salvar um novo usuário autenticado
-   * @return Call&lt;User&gt;
+   * Retorna os usuário de acordo com a lista de ids informada na requisição
+   * Retorna usuários registrados no sistema de acordo com a pesquisa
+   * @return Call&lt;List&lt;User&gt;&gt;
    */
   @POST("user")
-  Call<User> postUser();
+  Call<List<User>> getUserByIds();
     
+
+  /**
+   * Salva usuário de acordo com os dados informados na autenticação
+   * Permite salvar um novo usuário autenticado
+   * @param userIds Ids dos usuários a serem consultados (required)
+   * @return Call&lt;User&gt;
+   */
+  @POST("userList")
+  Call<User> getUserByIds_0(
+    @retrofit2.http.Body List<String> userIds
+  );
 
   /**
    * Atualize um usuário registrado no sistema(Somente permitido para o próprio usuário)
