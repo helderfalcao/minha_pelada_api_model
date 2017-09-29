@@ -104,7 +104,7 @@ public class ApiClient {
     json = new JSON();
     okBuilder = new OkHttpClient.Builder();
 
-    String baseUrl = "https://minhapeladaapi.herokuapp.com/v1";
+    String baseUrl = "http://minhapeladaapi.herokuapp.com/v1";
     if (!baseUrl.endsWith("/"))
       baseUrl = baseUrl + "/";
 

@@ -1,6 +1,6 @@
 # UserApi
 
-All URIs are relative to *https://minhapeladaapi.herokuapp.com/v1*
+All URIs are relative to *http://minhapeladaapi.herokuapp.com/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -63,7 +63,7 @@ This endpoint does not need any parameter.
 
 <a name="getUserByGroup"></a>
 # **getUserByGroup**
-> User getUserByGroup(groupId)
+> List&lt;User&gt; getUserByGroup(groupId)
 
 Retorna usuários de um determinado grupo
 
@@ -89,7 +89,7 @@ api_key.setApiKey("YOUR API KEY");
 UserApi apiInstance = new UserApi();
 String groupId = "groupId_example"; // String | ID do grupo que terão os usuário retornados
 try {
-    User result = apiInstance.getUserByGroup(groupId);
+    List<User> result = apiInstance.getUserByGroup(groupId);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling UserApi#getUserByGroup");
@@ -105,7 +105,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**User**](User.md)
+[**List&lt;User&gt;**](User.md)
 
 ### Authorization
 

@@ -13,6 +13,7 @@ Name | Type | Description | Notes
 **email** | **String** |  |  [optional]
 **senha** | **String** |  |  [optional]
 **telefone** | **String** |  |  [optional]
+**evaluated** | **Boolean** |  |  [optional]
 **status** | **String** | User Status |  [optional]
 
 

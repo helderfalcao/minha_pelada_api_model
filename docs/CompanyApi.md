@@ -1,6 +1,6 @@
 # CompanyApi
 
-All URIs are relative to *https://minhapeladaapi.herokuapp.com/v1*
+All URIs are relative to *http://minhapeladaapi.herokuapp.com/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

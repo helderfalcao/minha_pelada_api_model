@@ -29,10 +29,10 @@ public interface UserApi {
    * Retorna usuários de um determinado grupo
    * Retorna usuários registrados no sistema que pertencem ao id do grupo informado
    * @param groupId ID do grupo que terão os usuário retornados (required)
-   * @return Call&lt;User&gt;
+   * @return Call&lt;List&lt;User&gt;&gt;
    */
   @GET("user/{groupId}")
-  Call<User> getUserByGroup(
+  Call<List<User>> getUserByGroup(
     @retrofit2.http.Path("groupId") String groupId
   );
 

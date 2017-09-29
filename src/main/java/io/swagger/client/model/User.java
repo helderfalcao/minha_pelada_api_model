@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * User
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-09-18T00:46:56.003-03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-09-29T18:02:36.536-03:00")
 public class User {
   @SerializedName("_id")
   private String id = null;
@@ -54,6 +54,9 @@ public class User {
 
   @SerializedName("telefone")
   private String telefone = null;
+
+  @SerializedName("evaluated")
+  private Boolean evaluated = null;
 
   @SerializedName("status")
   private String status = null;
@@ -220,6 +223,24 @@ public class User {
     this.telefone = telefone;
   }
 
+  public User evaluated(Boolean evaluated) {
+    this.evaluated = evaluated;
+    return this;
+  }
+
+   /**
+   * Get evaluated
+   * @return evaluated
+  **/
+  @ApiModelProperty(value = "")
+  public Boolean isEvaluated() {
+    return evaluated;
+  }
+
+  public void setEvaluated(Boolean evaluated) {
+    this.evaluated = evaluated;
+  }
+
   public User status(String status) {
     this.status = status;
     return this;
@@ -257,12 +278,13 @@ public class User {
         Objects.equals(this.email, user.email) &&
         Objects.equals(this.senha, user.senha) &&
         Objects.equals(this.telefone, user.telefone) &&
+        Objects.equals(this.evaluated, user.evaluated) &&
         Objects.equals(this.status, user.status);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, userName, tokenGoogle, tokenFacebook, nome, foto, email, senha, telefone, status);
+    return Objects.hash(id, userName, tokenGoogle, tokenFacebook, nome, foto, email, senha, telefone, evaluated, status);
   }
 
 
@@ -280,6 +302,7 @@ public class User {
     sb.append("    email: ").append(toIndentedString(email)).append("\n");
     sb.append("    senha: ").append(toIndentedString(senha)).append("\n");
     sb.append("    telefone: ").append(toIndentedString(telefone)).append("\n");
+    sb.append("    evaluated: ").append(toIndentedString(evaluated)).append("\n");
     sb.append("    status: ").append(toIndentedString(status)).append("\n");
     sb.append("}");
     return sb.toString();
