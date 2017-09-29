@@ -119,7 +119,7 @@ Name | Type | Description  | Notes
 
 <a name="getUserByIds"></a>
 # **getUserByIds**
-> User getUserByIds(userIds)
+> List&lt;User&gt; getUserByIds(userIds)
 
 Salva usuário de acordo com os dados informados na autenticação
 
@@ -143,9 +143,9 @@ api_key.setApiKey("YOUR API KEY");
 //api_key.setApiKeyPrefix("Token");
 
 UserApi apiInstance = new UserApi();
-List<User> userIds = Arrays.asList(new User()); // List<User> | Ids dos usuários a serem consultados
+List<String> userIds = Arrays.asList(new List<String>()); // List<String> | Ids dos usuários a serem consultados
 try {
-    User result = apiInstance.getUserByIds(userIds);
+    List<User> result = apiInstance.getUserByIds(userIds);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling UserApi#getUserByIds");
@@ -157,11 +157,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userIds** | [**List&lt;User&gt;**](User.md)| Ids dos usuários a serem consultados |
+ **userIds** | **List&lt;String&gt;**| Ids dos usuários a serem consultados |
 
 ### Return type
 
-[**User**](User.md)
+[**List&lt;User&gt;**](User.md)
 
 ### Authorization
 

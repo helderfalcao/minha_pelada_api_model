@@ -40,11 +40,11 @@ public interface UserApi {
    * Salva usuário de acordo com os dados informados na autenticação
    * Permite salvar um novo usuário autenticado
    * @param userIds Ids dos usuários a serem consultados (required)
-   * @return Call&lt;User&gt;
+   * @return Call&lt;List&lt;User&gt;&gt;
    */
   @POST("userList")
-  Call<User> getUserByIds(
-    @retrofit2.http.Body List<User> userIds
+  Call<List<User>> getUserByIds(
+    @retrofit2.http.Body List<String> userIds
   );
 
   /**
