@@ -44,7 +44,7 @@ public interface UserApi {
    */
   @POST("userList")
   Call<User> getUserByIds(
-    @retrofit2.http.Body List<String> userIds
+    @retrofit2.http.Body List<User> userIds
   );
 
   /**

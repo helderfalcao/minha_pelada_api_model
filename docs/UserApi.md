@@ -143,7 +143,7 @@ api_key.setApiKey("YOUR API KEY");
 //api_key.setApiKeyPrefix("Token");
 
 UserApi apiInstance = new UserApi();
-List<String> userIds = Arrays.asList(new List<String>()); // List<String> | Ids dos usuários a serem consultados
+List<User> userIds = Arrays.asList(new User()); // List<User> | Ids dos usuários a serem consultados
 try {
     User result = apiInstance.getUserByIds(userIds);
     System.out.println(result);
@@ -157,7 +157,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userIds** | **List&lt;String&gt;**| Ids dos usuários a serem consultados |
+ **userIds** | [**List&lt;User&gt;**](User.md)| Ids dos usuários a serem consultados |
 
 ### Return type
 
