@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * Company
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:40:59.509-03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:46:26.435-03:00")
 public class Company {
   @SerializedName("_id")
   private String id = null;
