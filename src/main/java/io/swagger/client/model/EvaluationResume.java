@@ -27,13 +27,34 @@ import java.math.BigDecimal;
 /**
  * EvaluationResume
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:46:26.435-03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:55:47.536-03:00")
 public class EvaluationResume {
+  @SerializedName("_id")
+  private String id = null;
+
   @SerializedName("idUserEvaluated")
   private String idUserEvaluated = null;
 
   @SerializedName("valueResumed")
   private BigDecimal valueResumed = null;
+
+  public EvaluationResume id(String id) {
+    this.id = id;
+    return this;
+  }
+
+   /**
+   * Get id
+   * @return id
+  **/
+  @ApiModelProperty(value = "")
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
+  }
 
   public EvaluationResume idUserEvaluated(String idUserEvaluated) {
     this.idUserEvaluated = idUserEvaluated;
@@ -81,13 +102,14 @@ public class EvaluationResume {
       return false;
     }
     EvaluationResume evaluationResume = (EvaluationResume) o;
-    return Objects.equals(this.idUserEvaluated, evaluationResume.idUserEvaluated) &&
+    return Objects.equals(this.id, evaluationResume.id) &&
+        Objects.equals(this.idUserEvaluated, evaluationResume.idUserEvaluated) &&
         Objects.equals(this.valueResumed, evaluationResume.valueResumed);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(idUserEvaluated, valueResumed);
+    return Objects.hash(id, idUserEvaluated, valueResumed);
   }
 
 
@@ -96,6 +118,7 @@ public class EvaluationResume {
     StringBuilder sb = new StringBuilder();
     sb.append("class EvaluationResume {\n");
     
+    sb.append("    id: ").append(toIndentedString(id)).append("\n");
     sb.append("    idUserEvaluated: ").append(toIndentedString(idUserEvaluated)).append("\n");
     sb.append("    valueResumed: ").append(toIndentedString(valueResumed)).append("\n");
     sb.append("}");
