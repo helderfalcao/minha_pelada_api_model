@@ -26,7 +26,7 @@ import java.io.IOException;
 /**
  * Block
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:30:47.970-03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:40:59.509-03:00")
 public class Block {
   @SerializedName("_id")
   private String id = null;
