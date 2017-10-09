@@ -1,6 +1,6 @@
 # GroupApi
 
-All URIs are relative to *http://minhapeladaapi.herokuapp.com/v1*
+All URIs are relative to *http://localhost:8888/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

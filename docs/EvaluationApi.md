@@ -1,10 +1,11 @@
 # EvaluationApi
 
-All URIs are relative to *http://minhapeladaapi.herokuapp.com/v1*
+All URIs are relative to *http://localhost:8888/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**getEvaluation**](EvaluationApi.md#getEvaluation) | **GET** evaluation/{userEvaluatedId} | Retorna avaliações geradas por usuário registrados no sistema
+[**getUserEvaluationSummary**](EvaluationApi.md#getUserEvaluationSummary) | **GET** evaluationSummary/{userId} | Retorna as informações sumarizadas do jogador informado
 [**getUsersEvaluationResumed**](EvaluationApi.md#getUsersEvaluationResumed) | **POST** evaluationResumed | Retorna avaliações resumo dos jogadores informados
 [**postEvaluation**](EvaluationApi.md#postEvaluation) | **POST** evaluation/{userEvaluatedId} | Permite salvar uma nova avaliação
 [**putEvaluation**](EvaluationApi.md#putEvaluation) | **PUT** evaluation/{userEvaluatedId} | Atualiza uma avaliação já registrada
@@ -55,6 +56,61 @@ Name | Type | Description  | Notes
 ### Return type
 
 [**List&lt;Evaluation&gt;**](Evaluation.md)
+
+### Authorization
+
+[api_key](../README.md#api_key)
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json
+
+<a name="getUserEvaluationSummary"></a>
+# **getUserEvaluationSummary**
+> EvaluationSummary getUserEvaluationSummary(userId)
+
+Retorna as informações sumarizadas do jogador informado
+
+As informações sumarizadas são calculadas baseadas nas informações utilizadas pelos outros jogadores
+
+### Example
+```java
+// Import classes:
+//import io.swagger.client.ApiClient;
+//import io.swagger.client.ApiException;
+//import io.swagger.client.Configuration;
+//import io.swagger.client.auth.*;
+//import io.swagger.client.api.EvaluationApi;
+
+ApiClient defaultClient = Configuration.getDefaultApiClient();
+
+// Configure API key authorization: api_key
+ApiKeyAuth api_key = (ApiKeyAuth) defaultClient.getAuthentication("api_key");
+api_key.setApiKey("YOUR API KEY");
+// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+//api_key.setApiKeyPrefix("Token");
+
+EvaluationApi apiInstance = new EvaluationApi();
+String userId = "userId_example"; // String | ID do usuário a ter as informações sumarizadas retornadas
+try {
+    EvaluationSummary result = apiInstance.getUserEvaluationSummary(userId);
+    System.out.println(result);
+} catch (ApiException e) {
+    System.err.println("Exception when calling EvaluationApi#getUserEvaluationSummary");
+    e.printStackTrace();
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **userId** | **String**| ID do usuário a ter as informações sumarizadas retornadas |
+
+### Return type
+
+[**EvaluationSummary**](EvaluationSummary.md)
 
 ### Authorization
 

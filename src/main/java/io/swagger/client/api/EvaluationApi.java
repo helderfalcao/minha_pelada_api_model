@@ -9,6 +9,7 @@ import okhttp3.RequestBody;
 
 import io.swagger.client.model.Evaluation;
 import io.swagger.client.model.EvaluationResume;
+import io.swagger.client.model.EvaluationSummary;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,6 +27,17 @@ public interface EvaluationApi {
   @GET("evaluation/{userEvaluatedId}")
   Call<List<Evaluation>> getEvaluation(
     @retrofit2.http.Path("userEvaluatedId") String userEvaluatedId
+  );
+
+  /**
+   * Retorna as informações sumarizadas do jogador informado
+   * As informações sumarizadas são calculadas baseadas nas informações utilizadas pelos outros jogadores
+   * @param userId ID do usuário a ter as informações sumarizadas retornadas (required)
+   * @return Call&lt;EvaluationSummary&gt;
+   */
+  @GET("evaluationSummary/{userId}")
+  Call<EvaluationSummary> getUserEvaluationSummary(
+    @retrofit2.http.Path("userId") String userId
   );
 
   /**

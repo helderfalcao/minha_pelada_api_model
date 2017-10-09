@@ -25,50 +25,71 @@ import java.io.IOException;
 import java.math.BigDecimal;
 
 /**
- * EvaluationResume
+ * EvaluationSummaryUnit
  */
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:30:47.970-03:00")
-public class EvaluationResume {
-  @SerializedName("idUserEvaluated")
-  private String idUserEvaluated = null;
+public class EvaluationSummaryUnit {
+  @SerializedName("_id")
+  private String id = null;
 
-  @SerializedName("valueResumed")
-  private BigDecimal valueResumed = null;
+  @SerializedName("average")
+  private BigDecimal average = null;
 
-  public EvaluationResume idUserEvaluated(String idUserEvaluated) {
-    this.idUserEvaluated = idUserEvaluated;
+  @SerializedName("alias")
+  private String alias = null;
+
+  public EvaluationSummaryUnit id(String id) {
+    this.id = id;
     return this;
   }
 
    /**
-   * Get idUserEvaluated
-   * @return idUserEvaluated
+   * Get id
+   * @return id
   **/
   @ApiModelProperty(value = "")
-  public String getIdUserEvaluated() {
-    return idUserEvaluated;
+  public String getId() {
+    return id;
   }
 
-  public void setIdUserEvaluated(String idUserEvaluated) {
-    this.idUserEvaluated = idUserEvaluated;
+  public void setId(String id) {
+    this.id = id;
   }
 
-  public EvaluationResume valueResumed(BigDecimal valueResumed) {
-    this.valueResumed = valueResumed;
+  public EvaluationSummaryUnit average(BigDecimal average) {
+    this.average = average;
     return this;
   }
 
    /**
-   * Get valueResumed
-   * @return valueResumed
+   * Get average
+   * @return average
   **/
   @ApiModelProperty(value = "")
-  public BigDecimal getValueResumed() {
-    return valueResumed;
+  public BigDecimal getAverage() {
+    return average;
   }
 
-  public void setValueResumed(BigDecimal valueResumed) {
-    this.valueResumed = valueResumed;
+  public void setAverage(BigDecimal average) {
+    this.average = average;
+  }
+
+  public EvaluationSummaryUnit alias(String alias) {
+    this.alias = alias;
+    return this;
+  }
+
+   /**
+   * Get alias
+   * @return alias
+  **/
+  @ApiModelProperty(value = "")
+  public String getAlias() {
+    return alias;
+  }
+
+  public void setAlias(String alias) {
+    this.alias = alias;
   }
 
 
@@ -80,24 +101,26 @@ public class EvaluationResume {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    EvaluationResume evaluationResume = (EvaluationResume) o;
-    return Objects.equals(this.idUserEvaluated, evaluationResume.idUserEvaluated) &&
-        Objects.equals(this.valueResumed, evaluationResume.valueResumed);
+    EvaluationSummaryUnit evaluationSummaryUnit = (EvaluationSummaryUnit) o;
+    return Objects.equals(this.id, evaluationSummaryUnit.id) &&
+        Objects.equals(this.average, evaluationSummaryUnit.average) &&
+        Objects.equals(this.alias, evaluationSummaryUnit.alias);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(idUserEvaluated, valueResumed);
+    return Objects.hash(id, average, alias);
   }
 
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class EvaluationResume {\n");
+    sb.append("class EvaluationSummaryUnit {\n");
     
-    sb.append("    idUserEvaluated: ").append(toIndentedString(idUserEvaluated)).append("\n");
-    sb.append("    valueResumed: ").append(toIndentedString(valueResumed)).append("\n");
+    sb.append("    id: ").append(toIndentedString(id)).append("\n");
+    sb.append("    average: ").append(toIndentedString(average)).append("\n");
+    sb.append("    alias: ").append(toIndentedString(alias)).append("\n");
     sb.append("}");
     return sb.toString();
   }

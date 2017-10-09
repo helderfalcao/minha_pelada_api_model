@@ -48,6 +48,15 @@ public interface UserApi {
   );
 
   /**
+   * Retorna as informações do atual usuário
+   * Retorna os dados do atual usuário autenticado
+   * @return Call&lt;User&gt;
+   */
+  @GET("userProfile")
+  Call<User> getUserProfile();
+    
+
+  /**
    * Retorna os usuário de acordo com a lista de ids informada na requisição
    * Retorna usuários registrados no sistema de acordo com a pesquisa
    * @return Call&lt;List&lt;User&gt;&gt;
