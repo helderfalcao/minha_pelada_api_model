@@ -27,7 +27,7 @@ import java.math.BigDecimal;
 /**
  * EvaluationResume
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-08T21:55:47.536-03:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-10-15T18:22:52.309-02:00")
 public class EvaluationResume {
   @SerializedName("_id")
   private String id = null;
