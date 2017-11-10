@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * EvaluationSummary
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-10T18:18:21.776-02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-10T19:04:21.889-02:00")
 public class EvaluationSummary {
   @SerializedName("averageEvaluationValue")
   private BigDecimal averageEvaluationValue = null;

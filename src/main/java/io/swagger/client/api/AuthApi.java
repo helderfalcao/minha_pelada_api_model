@@ -2,7 +2,6 @@ package io.swagger.client.api;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.POST;
 
 
 public interface AuthApi {
@@ -34,9 +33,9 @@ public interface AuthApi {
    * @param refreshToken O token de acesso necessário para autenticação (optional)
    * @return Call&lt;Void&gt;
    */
-  @POST("auth/google/token")
+  @GET("auth/google/token")
   Call<Void> loginGoogleToken(
-    @retrofit2.http.Body String accessToken, @retrofit2.http.Query("group") String group, @retrofit2.http.Query("refresh_token") String refreshToken
+    @retrofit2.http.Query("access_token") String accessToken, @retrofit2.http.Query("group") String group, @retrofit2.http.Query("refresh_token") String refreshToken
   );
 
   /**
