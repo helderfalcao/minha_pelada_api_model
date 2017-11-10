@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8536f82-b7f0-4ce1-ba98-2b7d22bf5228" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" afterPath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/AuthApi.md" afterPath="$PROJECT_DIR$/docs/AuthApi.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/StringUtil.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/StringUtil.java" />
@@ -93,17 +94,17 @@
       <file leaf-file-name="ApiClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="108" column="14" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
+            <state relative-caret-position="466">
+              <caret line="108" column="26" lean-forward="false" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
               <folding>
                 <element signature="e#2060#2061#0" expanded="true" />
                 <element signature="e#2098#2099#0" expanded="true" />
-                <marker date="1510347884073" expanded="false" signature="8959:8966" ph=" { " />
-                <marker date="1510347884073" expanded="false" signature="8991:8995" ph=" }" />
-                <marker date="1510347884073" expanded="false" signature="9198:9205" ph=" { " />
-                <marker date="1510347884073" expanded="false" signature="9227:9231" ph=" }" />
-                <marker date="1510347884073" expanded="false" signature="9413:9420" ph=" { " />
-                <marker date="1510347884073" expanded="false" signature="9437:9441" ph=" }" />
+                <marker date="1510353470770" expanded="false" signature="8959:8966" ph=" { " />
+                <marker date="1510353470770" expanded="false" signature="8991:8995" ph=" }" />
+                <marker date="1510353470770" expanded="false" signature="9198:9205" ph=" { " />
+                <marker date="1510353470770" expanded="false" signature="9227:9231" ph=" }" />
+                <marker date="1510353470770" expanded="false" signature="9413:9420" ph=" { " />
+                <marker date="1510353470770" expanded="false" signature="9437:9441" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -764,7 +765,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510347888851" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510353489818" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -812,7 +813,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510347888851" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510353489818" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1105,12 +1106,12 @@
           <folding>
             <element signature="e#2060#2061#0" expanded="true" />
             <element signature="e#2098#2099#0" expanded="true" />
-            <marker date="1510347884073" expanded="false" signature="8959:8966" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="8991:8995" ph=" }" />
-            <marker date="1510347884073" expanded="false" signature="9198:9205" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="9227:9231" ph=" }" />
-            <marker date="1510347884073" expanded="false" signature="9413:9420" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="9437:9441" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="8959:8966" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="8991:8995" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="9198:9205" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="9227:9231" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="9413:9420" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="9437:9441" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1180,12 +1181,12 @@
           <folding>
             <element signature="e#2060#2061#0" expanded="true" />
             <element signature="e#2098#2099#0" expanded="true" />
-            <marker date="1510347884073" expanded="false" signature="8959:8966" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="8991:8995" ph=" }" />
-            <marker date="1510347884073" expanded="false" signature="9198:9205" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="9227:9231" ph=" }" />
-            <marker date="1510347884073" expanded="false" signature="9413:9420" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="9437:9441" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="8959:8966" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="8991:8995" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="9198:9205" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="9227:9231" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="9413:9420" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="9437:9441" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1369,25 +1370,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="108" column="14" lean-forward="false" selection-start-line="108" selection-start-column="14" selection-end-line="108" selection-end-column="14" />
+        <state relative-caret-position="466">
+          <caret line="108" column="26" lean-forward="false" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
           <folding>
             <element signature="e#2060#2061#0" expanded="true" />
             <element signature="e#2098#2099#0" expanded="true" />
-            <marker date="1510347884073" expanded="false" signature="8959:8966" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="8991:8995" ph=" }" />
-            <marker date="1510347884073" expanded="false" signature="9198:9205" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="9227:9231" ph=" }" />
-            <marker date="1510347884073" expanded="false" signature="9413:9420" ph=" { " />
-            <marker date="1510347884073" expanded="false" signature="9437:9441" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="8959:8966" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="8991:8995" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="9198:9205" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="9227:9231" ph=" }" />
+            <marker date="1510353470770" expanded="false" signature="9413:9420" ph=" { " />
+            <marker date="1510353470770" expanded="false" signature="9437:9441" ph=" }" />
           </folding>
         </state>
       </provider>

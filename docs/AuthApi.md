@@ -6,7 +6,7 @@ Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**loginFacebook**](AuthApi.md#loginFacebook) | **GET** auth/facebook | Logs user into the system
 [**loginGoogle**](AuthApi.md#loginGoogle) | **GET** auth/google | Logs user into the system
-[**loginGoogleToken**](AuthApi.md#loginGoogleToken) | **GET** auth/google/token | Logs user into the system
+[**loginGoogleToken**](AuthApi.md#loginGoogleToken) | **POST** auth/google/token | Logs user into the system
 [**logoutUser**](AuthApi.md#logoutUser) | **GET** auth/logout | Logs user into the system
 
 
@@ -94,7 +94,7 @@ No authorization required
 
 <a name="loginGoogleToken"></a>
 # **loginGoogleToken**
-> Void loginGoogleToken(accessToken, group, refreshToken)
+> Void loginGoogleToken(idToken, group)
 
 Logs user into the system
 
@@ -106,11 +106,10 @@ Logs user into the system
 
 
 AuthApi apiInstance = new AuthApi();
-String accessToken = "accessToken_example"; // String | O token de acesso necessário para autenticação
+String idToken = "idToken_example"; // String | O token de acesso necessário para autenticação
 String group = "group_example"; // String | O grupo que este usuário irá se inscrever/ver
-String refreshToken = "refreshToken_example"; // String | O token de acesso necessário para autenticação
 try {
-    Void result = apiInstance.loginGoogleToken(accessToken, group, refreshToken);
+    Void result = apiInstance.loginGoogleToken(idToken, group);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling AuthApi#loginGoogleToken");
@@ -122,9 +121,8 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **accessToken** | **String**| O token de acesso necessário para autenticação |
+ **idToken** | **String**| O token de acesso necessário para autenticação |
  **group** | **String**| O grupo que este usuário irá se inscrever/ver | [optional]
- **refreshToken** | **String**| O token de acesso necessário para autenticação | [optional]
 
 ### Return type
 

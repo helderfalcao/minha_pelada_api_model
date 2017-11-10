@@ -1,7 +1,17 @@
 package io.swagger.client.api;
 
+import io.swagger.client.CollectionFormats.*;
+
 import retrofit2.Call;
-import retrofit2.http.GET;
+import retrofit2.http.*;
+
+import okhttp3.RequestBody;
+
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 public interface AuthApi {
@@ -28,14 +38,13 @@ public interface AuthApi {
   /**
    * Logs user into the system
    * 
-   * @param accessToken O token de acesso necessário para autenticação (required)
+   * @param idToken O token de acesso necessário para autenticação (required)
    * @param group O grupo que este usuário irá se inscrever/ver (optional)
-   * @param refreshToken O token de acesso necessário para autenticação (optional)
    * @return Call&lt;Void&gt;
    */
-  @GET("auth/google/token")
+  @POST("auth/google/token")
   Call<Void> loginGoogleToken(
-    @retrofit2.http.Query("access_token") String accessToken, @retrofit2.http.Query("group") String group, @retrofit2.http.Query("refresh_token") String refreshToken
+    @retrofit2.http.Query("id_token") String idToken, @retrofit2.http.Query("group") String group
   );
 
   /**
