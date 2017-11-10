@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8536f82-b7f0-4ce1-ba98-2b7d22bf5228" name="Default" comment="" />
+    <list default="true" id="f8536f82-b7f0-4ce1-ba98-2b7d22bf5228" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" afterPath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +31,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="1998">
               <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
               <folding />
             </state>
@@ -37,7 +41,7 @@
       <file leaf-file-name="ApiKeyAuth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/ApiKeyAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
+            <state relative-caret-position="72">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
@@ -47,7 +51,7 @@
       <file leaf-file-name="OAuthOkHttpClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthOkHttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="630">
               <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding />
             </state>
@@ -64,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OAuth.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OAuth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+            <state relative-caret-position="180">
+              <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,10 +80,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ApiClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="108" column="43" lean-forward="false" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="HttpBasicAuth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/HttpBasicAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
+            <state relative-caret-position="72">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
@@ -97,6 +111,10 @@
       <find>OAuthSystemException</find>
       <find>token</find>
       <find>OAuthBearerClientRequest</find>
+      <find>minhap</find>
+      <find>minhape</find>
+      <find>minhapela</find>
+      <find>minhapelada</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -422,119 +440,64 @@
               <option name="name" value="swagger-java-client" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/sonar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-open-api-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-wrapper-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-model-core-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-docs-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-cli-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-base-services-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-core-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-native-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-ui-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-tooling-api-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-launcher-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-model-groovy-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-messaging-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/groovy-all-2.3.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-base-services-groovy-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/gradle-resources-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-plugin-use-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-ivy-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-osgi-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-language-scala-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-sonar-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-code-quality-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-plugins-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-build-init-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-test-kit-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-jacoco-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-javascript-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-diagnostics-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-publish-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-language-groovy-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-resources-sftp-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-platform-base-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-announce-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-signing-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-jetty-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-maven-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-tooling-api-builders-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-scala-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-dependency-management-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-language-native-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-reporting-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-ide-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-ide-native-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-platform-jvm-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-platform-play-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-language-jvm-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-build-comparison-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-platform-native-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-resources-http-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-resources-s3-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-language-java-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-ear-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-testing-native-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-antlr-2.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-all/2j4sg4877lcsg31diboouhun8/gradle-2.6/lib/plugins/gradle-plugin-development-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-open-api-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-wrapper-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-model-core-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-docs-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-cli-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-base-services-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-core-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-native-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-ui-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-tooling-api-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-launcher-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-model-groovy-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-messaging-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/groovy-all-2.3.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-base-services-groovy-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/gradle-resources-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-plugin-use-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-ivy-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-osgi-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-language-scala-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-sonar-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-code-quality-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-plugins-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-build-init-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-test-kit-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-jacoco-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-javascript-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-diagnostics-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-publish-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-language-groovy-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-resources-sftp-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-platform-base-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-announce-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-signing-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-jetty-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-maven-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-tooling-api-builders-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-scala-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-dependency-management-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-language-native-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-reporting-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-ide-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-ide-native-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-platform-jvm-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-platform-play-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-language-jvm-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-build-comparison-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-platform-native-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-resources-http-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-resources-s3-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-language-java-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-ear-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-testing-native-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-antlr-2.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.6-bin/7og9jkn1p1nxjafu1htp0hhvc/gradle-2.6/lib/plugins/gradle-plugin-development-2.6.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -551,9 +514,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java" />
       </list>
     </option>
   </component>
@@ -578,9 +541,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -659,6 +619,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -800,7 +763,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21517554" sideWeight="0.41880342" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1784188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18055555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21064553" sideWeight="0.4969651" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -822,7 +786,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21064553" sideWeight="0.4969651" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -841,6 +804,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/ApiKeyAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthOkHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/HttpBasicAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -889,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/JSON.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -909,7 +915,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="1998">
           <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
           <folding />
         </state>
@@ -917,7 +923,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthOkHttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="630">
           <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
           <folding />
         </state>
@@ -933,7 +939,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/HttpBasicAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
+        <state relative-caret-position="72">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
@@ -941,7 +947,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/ApiKeyAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
+        <state relative-caret-position="72">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
@@ -949,11 +955,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="40" column="57" lean-forward="false" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        <state relative-caret-position="180">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="108" column="43" lean-forward="false" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
