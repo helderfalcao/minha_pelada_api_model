@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8536f82-b7f0-4ce1-ba98-2b7d22bf5228" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_swagger_annotations_1_5_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_oltu_oauth2_org_apache_oltu_oauth2_client_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_json_json_20140107.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_threeten_threetenbp_1_3_5.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" afterPath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/AuthApi.md" afterPath="$PROJECT_DIR$/docs/AuthApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/StringUtil.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/StringUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/api/AuthApi.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/api/AuthApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Block.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Block.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Company.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Company.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Evaluation.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Evaluation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/EvaluationResume.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/EvaluationResume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/EvaluationSummary.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/EvaluationSummary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/EvaluationSummaryUnit.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/EvaluationSummaryUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Group.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Match.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Match.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/MatchSkeleton.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/MatchSkeleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Time.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Time.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/User.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
-              <caret line="108" column="44" lean-forward="false" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+              <caret line="108" column="22" lean-forward="false" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="44" />
               <folding>
                 <element signature="e#2060#2061#0" expanded="true" />
                 <element signature="e#2098#2099#0" expanded="true" />
@@ -1055,7 +1057,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="108" column="44" lean-forward="false" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+          <caret line="108" column="22" lean-forward="false" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="44" />
           <folding>
             <element signature="e#2060#2061#0" expanded="true" />
             <element signature="e#2098#2099#0" expanded="true" />
