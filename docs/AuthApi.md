@@ -6,7 +6,7 @@ Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**loginFacebook**](AuthApi.md#loginFacebook) | **GET** auth/facebook | Logs user into the system
 [**loginGoogle**](AuthApi.md#loginGoogle) | **GET** auth/google | Logs user into the system
-[**loginGoogleToken**](AuthApi.md#loginGoogleToken) | **GET** auth/google/token | Logs user into the system
+[**loginGoogleToken**](AuthApi.md#loginGoogleToken) | **POST** auth/google/token | Logs user into the system
 [**logoutUser**](AuthApi.md#logoutUser) | **GET** auth/logout | Logs user into the system
 
 

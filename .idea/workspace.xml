@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8536f82-b7f0-4ce1-ba98-2b7d22bf5228" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" afterPath="$PROJECT_DIR$/.idea/modules/swagger-java-client.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/AuthApi.md" afterPath="$PROJECT_DIR$/docs/AuthApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/StringUtil.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/StringUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/api/AuthApi.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/api/AuthApi.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Block.java" afterPath="$PROJECT_DIR$/src/main/java/io/swagger/client/model/Block.java" />
@@ -42,16 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ApiKeyAuth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/ApiKeyAuth.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,7 +53,7 @@
       <file leaf-file-name="OAuthOkHttpClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthOkHttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="567">
               <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding />
             </state>
@@ -85,7 +73,7 @@
       <file leaf-file-name="OAuth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="180">
               <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,9 +85,18 @@
       <file leaf-file-name="ApiClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
+            <state relative-caret-position="201">
               <caret line="108" column="44" lean-forward="false" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
-              <folding />
+              <folding>
+                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="e#2098#2099#0" expanded="true" />
+                <marker date="1510345160022" expanded="false" signature="8957:8964" ph=" { " />
+                <marker date="1510345160022" expanded="false" signature="8989:8993" ph=" }" />
+                <marker date="1510345160022" expanded="false" signature="9196:9203" ph=" { " />
+                <marker date="1510345160022" expanded="false" signature="9225:9229" ph=" }" />
+                <marker date="1510345160022" expanded="false" signature="9411:9418" ph=" { " />
+                <marker date="1510345160022" expanded="false" signature="9435:9439" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +104,7 @@
       <file leaf-file-name="HttpBasicAuth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/HttpBasicAuth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="-81">
               <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
@@ -126,11 +123,20 @@
       <find>token</find>
       <find>OAuthBearerClientRequest</find>
       <find>minhap</find>
+      <find>baseUrl</find>
+      <find>createDefaultAdapter</find>
+      <find>M</find>
+      <find>Minha</find>
+      <find>,omja</find>
+      <find>,omj</find>
+      <find>,om</find>
+      <find>,o</find>
+      <find>,</find>
+      <find>m</find>
+      <find>min</find>
       <find>minhape</find>
       <find>minhapela</find>
       <find>minhapelada</find>
-      <find>baseUrl</find>
-      <find>createDefaultAdapter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -780,6 +786,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21517554" sideWeight="0.41880342" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1826923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21064553" sideWeight="0.4969651" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -801,7 +808,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21064553" sideWeight="0.4969651" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -874,7 +880,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="113" column="16" lean-forward="true" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <marker date="1510345160022" expanded="false" signature="8957:8964" ph=" { " />
+            <marker date="1510345160022" expanded="false" signature="8989:8993" ph=" }" />
+            <marker date="1510345160022" expanded="false" signature="9196:9203" ph=" { " />
+            <marker date="1510345160022" expanded="false" signature="9225:9229" ph=" }" />
+            <marker date="1510345160022" expanded="false" signature="9411:9418" ph=" { " />
+            <marker date="1510345160022" expanded="false" signature="9435:9439" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -987,22 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthOkHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthFlow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1011,10 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/HttpBasicAuth.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="1080">
+          <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1029,7 +1028,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="180">
           <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1037,11 +1036,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/OAuthOkHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/auth/HttpBasicAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/swagger/client/ApiClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="201">
           <caret line="108" column="44" lean-forward="false" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
-          <folding />
+          <folding>
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2098#2099#0" expanded="true" />
+            <marker date="1510345160022" expanded="false" signature="8957:8964" ph=" { " />
+            <marker date="1510345160022" expanded="false" signature="8989:8993" ph=" }" />
+            <marker date="1510345160022" expanded="false" signature="9196:9203" ph=" { " />
+            <marker date="1510345160022" expanded="false" signature="9225:9229" ph=" }" />
+            <marker date="1510345160022" expanded="false" signature="9411:9418" ph=" { " />
+            <marker date="1510345160022" expanded="false" signature="9435:9439" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
