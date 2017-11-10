@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * Match
  */
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-10T14:46:12.095-02:00")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2017-11-10T18:09:28.059-02:00")
 public class Match {
   @SerializedName("_id")
   private String id = null;

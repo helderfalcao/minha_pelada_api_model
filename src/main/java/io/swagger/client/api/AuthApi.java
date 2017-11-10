@@ -39,13 +39,13 @@ public interface AuthApi {
    * Logs user into the system
    * 
    * @param accessToken O token de acesso necessário para autenticação (required)
-   * @param refreshToken O token de acesso necessário para autenticação (required)
    * @param group O grupo que este usuário irá se inscrever/ver (optional)
+   * @param refreshToken O token de acesso necessário para autenticação (optional)
    * @return Call&lt;Void&gt;
    */
   @GET("auth/google/token")
-  Call<Void> loginGoogle_0(
-    @retrofit2.http.Query("access_token") String accessToken, @retrofit2.http.Query("refresh_token") String refreshToken, @retrofit2.http.Query("group") String group
+  Call<Void> loginGoogleToken(
+    @retrofit2.http.Body String accessToken, @retrofit2.http.Query("group") String group, @retrofit2.http.Query("refresh_token") String refreshToken
   );
 
   /**
