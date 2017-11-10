@@ -106,7 +106,7 @@ public class ApiClient {
     json = new JSON();
     okBuilder = new OkHttpClient.Builder();
 
-    String baseUrl = "http://localhost:8888/v1";
+    String baseUrl = "http://192.168.1.12:8888/v1";
     if (!baseUrl.endsWith("/"))
       baseUrl = baseUrl + "/";
 
