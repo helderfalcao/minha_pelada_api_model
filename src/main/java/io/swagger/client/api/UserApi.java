@@ -39,12 +39,13 @@ public interface UserApi {
   /**
    * Salva usuário de acordo com os dados informados na autenticação
    * Permite salvar um novo usuário autenticado
-   * @param userIds Ids dos usuários a serem consultados (required)
+   * @param userIds Ids dos usuários a serem consultados (optional)
+   * @param isPresent Informa se os jogadores estarão presentes na próxima partida (optional)
    * @return Call&lt;List&lt;User&gt;&gt;
    */
   @POST("userList")
   Call<List<User>> getUserByIds(
-    @retrofit2.http.Body List<String> userIds
+    @retrofit2.http.Body List<String> userIds, @retrofit2.http.Query("isPresent") Boolean isPresent
   );
 
   /**
@@ -54,24 +55,6 @@ public interface UserApi {
    */
   @GET("userProfile")
   Call<User> getUserProfile();
-    
-
-  /**
-   * Retorna os usuário de acordo com a lista de ids informada na requisição
-   * Retorna usuários registrados no sistema de acordo com a pesquisa
-   * @return Call&lt;List&lt;User&gt;&gt;
-   */
-  @POST("user")
-  Call<List<User>> postUser();
-    
-
-  /**
-   * Atualize um usuário registrado no sistema(Somente permitido para o próprio usuário)
-   * Permite o usuário atualizar seus dados pessoais
-   * @return Call&lt;User&gt;
-   */
-  @PUT("user")
-  Call<User> putUser();
     
 
 }

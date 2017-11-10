@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 <a name="getMatchSkeleton"></a>
 # **getMatchSkeleton**
-> MatchSkeleton getMatchSkeleton()
+> InlineResponse2002 getMatchSkeleton()
 
 Retorna os skeletons de partida do usuário
 
@@ -36,7 +36,7 @@ api_key.setApiKey("YOUR API KEY");
 
 MatchSkeletonApi apiInstance = new MatchSkeletonApi();
 try {
-    MatchSkeleton result = apiInstance.getMatchSkeleton();
+    InlineResponse2002 result = apiInstance.getMatchSkeleton();
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling MatchSkeletonApi#getMatchSkeleton");
@@ -49,7 +49,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**MatchSkeleton**](MatchSkeleton.md)
+[**InlineResponse2002**](InlineResponse2002.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ This endpoint does not need any parameter.
 
 <a name="postMatchSkeleton"></a>
 # **postMatchSkeleton**
-> MatchSkeleton postMatchSkeleton()
+> InlineResponse2002 postMatchSkeleton()
 
 Salva uma nova estrutura de partidas
 
@@ -87,7 +87,7 @@ api_key.setApiKey("YOUR API KEY");
 
 MatchSkeletonApi apiInstance = new MatchSkeletonApi();
 try {
-    MatchSkeleton result = apiInstance.postMatchSkeleton();
+    InlineResponse2002 result = apiInstance.postMatchSkeleton();
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling MatchSkeletonApi#postMatchSkeleton");
@@ -100,7 +100,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**MatchSkeleton**](MatchSkeleton.md)
+[**InlineResponse2002**](InlineResponse2002.md)
 
 ### Authorization
 
@@ -113,7 +113,7 @@ This endpoint does not need any parameter.
 
 <a name="putMatchSkeleton"></a>
 # **putMatchSkeleton**
-> MatchSkeleton putMatchSkeleton()
+> InlineResponse2002 putMatchSkeleton()
 
 Atualizar uma estrutura de partidas
 
@@ -138,7 +138,7 @@ api_key.setApiKey("YOUR API KEY");
 
 MatchSkeletonApi apiInstance = new MatchSkeletonApi();
 try {
-    MatchSkeleton result = apiInstance.putMatchSkeleton();
+    InlineResponse2002 result = apiInstance.putMatchSkeleton();
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling MatchSkeletonApi#putMatchSkeleton");
@@ -151,7 +151,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-[**MatchSkeleton**](MatchSkeleton.md)
+[**InlineResponse2002**](InlineResponse2002.md)
 
 ### Authorization
 

@@ -38,7 +38,7 @@ public interface GroupApi {
    */
   @DELETE("group/{groupId}")
   Call<Void> deleteGroup(
-    @retrofit2.http.Path("groupId") Long groupId
+    @retrofit2.http.Path("groupId") String groupId
   );
 
   /**
@@ -53,7 +53,7 @@ public interface GroupApi {
   /**
    * Find Groups of the current user
    * Retunr the groups of the authenticated user
-   * @param userGroup User Group values that need to be considered for filter (required)
+   * @param userGroup User Group values that need to be considered for filter (optional)
    * @return Call&lt;List&lt;Group&gt;&gt;
    */
   @GET("group/findUserGroups")

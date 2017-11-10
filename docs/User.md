@@ -14,6 +14,7 @@ Name | Type | Description | Notes
 **senha** | **String** |  |  [optional]
 **telefone** | **String** |  |  [optional]
 **evaluated** | **Boolean** |  |  [optional]
+**evaluatedValue** | [**BigDecimal**](BigDecimal.md) |  |  [optional]
 **status** | **String** | User Status |  [optional]
 
 

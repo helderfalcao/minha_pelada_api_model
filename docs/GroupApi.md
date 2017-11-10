@@ -85,7 +85,7 @@ OAuth group_auth = (OAuth) defaultClient.getAuthentication("group_auth");
 group_auth.setAccessToken("YOUR ACCESS TOKEN");
 
 GroupApi apiInstance = new GroupApi();
-Long groupId = 789L; // Long | Group id to delete
+String groupId = "groupId_example"; // String | Group id to delete
 try {
     Void result = apiInstance.deleteGroup(groupId);
     System.out.println(result);
@@ -99,7 +99,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **groupId** | **Long**| Group id to delete |
+ **groupId** | **String**| Group id to delete |
 
 ### Return type
 
@@ -201,7 +201,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userGroup** | [**List&lt;String&gt;**](String.md)| User Group values that need to be considered for filter | [enum: admin, participant]
+ **userGroup** | [**List&lt;String&gt;**](String.md)| User Group values that need to be considered for filter | [optional] [enum: admin, participant]
 
 ### Return type
 

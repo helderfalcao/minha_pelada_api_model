@@ -7,7 +7,6 @@ import retrofit2.http.*;
 
 import okhttp3.RequestBody;
 
-import io.swagger.client.model.User;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,20 +18,35 @@ public interface AuthApi {
   /**
    * Logs user into the system
    * 
-   * @return Call&lt;String&gt;
+   * @return Call&lt;Void&gt;
    */
   @GET("auth/facebook")
-  Call<String> loginFacebook();
+  Call<Void> loginFacebook();
     
 
   /**
    * Logs user into the system
    * 
-   * @return Call&lt;User&gt;
+   * @param group O grupo que este usuário irá se inscrever/ver (optional)
+   * @return Call&lt;Void&gt;
    */
   @GET("auth/google")
-  Call<User> loginGoogle();
-    
+  Call<Void> loginGoogle(
+    @retrofit2.http.Query("group") String group
+  );
+
+  /**
+   * Logs user into the system
+   * 
+   * @param accessToken O token de acesso necessário para autenticação (required)
+   * @param refreshToken O token de acesso necessário para autenticação (required)
+   * @param group O grupo que este usuário irá se inscrever/ver (optional)
+   * @return Call&lt;Void&gt;
+   */
+  @GET("auth/google/token")
+  Call<Void> loginGoogle_0(
+    @retrofit2.http.Query("access_token") String accessToken, @retrofit2.http.Query("refresh_token") String refreshToken, @retrofit2.http.Query("group") String group
+  );
 
   /**
    * Logs user into the system

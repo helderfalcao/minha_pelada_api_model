@@ -6,12 +6,13 @@ Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**loginFacebook**](AuthApi.md#loginFacebook) | **GET** auth/facebook | Logs user into the system
 [**loginGoogle**](AuthApi.md#loginGoogle) | **GET** auth/google | Logs user into the system
+[**loginGoogle_0**](AuthApi.md#loginGoogle_0) | **GET** auth/google/token | Logs user into the system
 [**logoutUser**](AuthApi.md#logoutUser) | **GET** auth/logout | Logs user into the system
 
 
 <a name="loginFacebook"></a>
 # **loginFacebook**
-> String loginFacebook()
+> Void loginFacebook()
 
 Logs user into the system
 
@@ -24,7 +25,7 @@ Logs user into the system
 
 AuthApi apiInstance = new AuthApi();
 try {
-    String result = apiInstance.loginFacebook();
+    Void result = apiInstance.loginFacebook();
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling AuthApi#loginFacebook");
@@ -37,7 +38,7 @@ This endpoint does not need any parameter.
 
 ### Return type
 
-**String**
+[**Void**](.md)
 
 ### Authorization
 
@@ -50,7 +51,7 @@ No authorization required
 
 <a name="loginGoogle"></a>
 # **loginGoogle**
-> User loginGoogle()
+> Void loginGoogle(group)
 
 Logs user into the system
 
@@ -62,8 +63,9 @@ Logs user into the system
 
 
 AuthApi apiInstance = new AuthApi();
+String group = "group_example"; // String | O grupo que este usuário irá se inscrever/ver
 try {
-    User result = apiInstance.loginGoogle();
+    Void result = apiInstance.loginGoogle(group);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling AuthApi#loginGoogle");
@@ -72,11 +74,61 @@ try {
 ```
 
 ### Parameters
-This endpoint does not need any parameter.
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **group** | **String**| O grupo que este usuário irá se inscrever/ver | [optional]
 
 ### Return type
 
-[**User**](User.md)
+[**Void**](.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: Not defined
+ - **Accept**: application/json, application/xml
+
+<a name="loginGoogle_0"></a>
+# **loginGoogle_0**
+> Void loginGoogle_0(accessToken, refreshToken, group)
+
+Logs user into the system
+
+### Example
+```java
+// Import classes:
+//import io.swagger.client.ApiException;
+//import io.swagger.client.api.AuthApi;
+
+
+AuthApi apiInstance = new AuthApi();
+String accessToken = "accessToken_example"; // String | O token de acesso necessário para autenticação
+String refreshToken = "refreshToken_example"; // String | O token de acesso necessário para autenticação
+String group = "group_example"; // String | O grupo que este usuário irá se inscrever/ver
+try {
+    Void result = apiInstance.loginGoogle_0(accessToken, refreshToken, group);
+    System.out.println(result);
+} catch (ApiException e) {
+    System.err.println("Exception when calling AuthApi#loginGoogle_0");
+    e.printStackTrace();
+}
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **accessToken** | **String**| O token de acesso necessário para autenticação |
+ **refreshToken** | **String**| O token de acesso necessário para autenticação |
+ **group** | **String**| O grupo que este usuário irá se inscrever/ver | [optional]
+
+### Return type
+
+[**Void**](.md)
 
 ### Authorization
 
